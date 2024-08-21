@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="sceptre-cloudformation-package-handler",
-    version="0.1",
+    version="0.1.1",
     author="Trinopoty Biswas",
     author_email="trinopoty@outlook.com",
     description="A template handler for cloudformation package command.",
@@ -17,7 +17,7 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    py_modules=["sceptre-cloudformation-package-handler"],
+    py_modules=["sceptre_cloudformation_package_handler"],
     entry_points={
         'sceptre.template_handlers': [
             'cloudformation_package = sceptre_cloudformation_package_handler:PackagedTemplate'
