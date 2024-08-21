@@ -7,6 +7,7 @@ setup(
     name="sceptre-cloudformation-package-handler",
     version="0.1",
     author="Trinopoty Biswas",
+    author_email="trinopoty@outlook.com",
     description="A template handler for cloudformation package command.",
     long_description_content_type="text/markdown",
     long_description=long_description,
